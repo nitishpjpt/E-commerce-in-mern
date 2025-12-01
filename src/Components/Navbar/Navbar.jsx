@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -43,7 +44,7 @@ const Navbar = () => {
 
           {/* Login Button (Desktop) */}
           <div className="hidden md:block bg-blue-500 px-8 py-2 rounded-3xl text-white">
-            <button>Login</button>
+            <button><Link to="/login">Login</Link></button>
           </div>
 
           {/* Mobile Hamburger */}

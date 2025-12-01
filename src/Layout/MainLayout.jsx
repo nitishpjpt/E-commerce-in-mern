@@ -20,7 +20,7 @@ const MainLayout = () => {
                 {/* Footer */}
                 <div className='pb-10rem'>
 
-                <Footer  />
+                    <Footer />
                 </div>
             </div>
         </>

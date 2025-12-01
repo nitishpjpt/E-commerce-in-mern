@@ -59,7 +59,7 @@ const ProductCarousel = () => {
     const canGoRight = current < totalSlides - 1;
 
     return (
-        <div className="relative w-full px-2 sm:px-4 lg:px-6 mt-6 sm:mt-8 lg:mt-10 bg-gradient-to-br from-gray-50 to-gray-100 p-4 sm:p-6 lg:p-8 rounded-xl lg:rounded-2xl shadow-lg">
+        <div className="relative w-full px-2 sm:px-4 lg:px-6 sm:mt-8 lg:mt-10 bg-gradient-to-br from-gray-50 to-gray-100 p-4 sm:p-6 lg:p-8 rounded-xl lg:rounded-2xl shadow-lg">
 
             {/* Enhanced Header */}
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 sm:mb-8 gap-4">

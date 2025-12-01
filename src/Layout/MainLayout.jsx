@@ -18,7 +18,10 @@ const MainLayout = () => {
                 </main>
 
                 {/* Footer */}
-                <Footer />
+                <div className='pb-10rem'>
+
+                <Footer  />
+                </div>
             </div>
         </>
     )

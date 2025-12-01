@@ -19,7 +19,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="relative w-full overflow-hidden">
+    <div className="relative w-full overflow-hidden top-28">
       {/* 
         ⭐ SMOOTH SLIDING ANIMATION
         We wrap all slides in a flex-row container, then move them using translateX.

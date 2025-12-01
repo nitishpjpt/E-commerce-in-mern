@@ -8,7 +8,7 @@ import p4 from "../../assets/dell.png";
 
 const Marque = () => {
     return (
-        <div className="w-full bg-white py-14">
+        <div className="w-full bg-#F9FAFB py-14">
             <Marquee speed={50} pauseOnHover={true} gradient={false}>
                 <div className="flex items-center gap-16">
 
